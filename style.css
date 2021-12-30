@@ -4,13 +4,55 @@ body
     padding: 0;
     
 }
-.header
+
+header
 {
     background-color:#1f2937;
     color: white;
+    padding:30px 200px 30px 200px;
+    background-image:"img/devfoto.jpeg" ;
+}
+.header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+  
+
 }
 .logo
 {
     font-size: 24px;
-  /* color: white; /*
+    color: white; 
+    ;
+}
+a
+{
+    text-decoration:none;
+    color: white;
+}
+.class_1
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+ul
+{
+    list-style: none;
+    color: white;
+    display: flex;
+    margin: 0px;
+    gap:20px;
+}
+.section-two-header
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#right-img
+{
+    
 }
